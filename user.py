@@ -10,7 +10,9 @@ class User:
         return f"{self.ism} {self.familya} {self.t_yili} {self.email_adres}"
 
     def e_mail(self):
-        return f" {self.email_adres}"
+        return self.email_adres
+
+    def ism_email(self):
+        return self.ism
 user1 = User("Diyorbek", "Ashiraliyev", 2017, "diyorbek@gmail.com")
 print(user1.get_info())
-print(user1.e_mail())
