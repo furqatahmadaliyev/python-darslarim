@@ -15,4 +15,4 @@ class User:
     def ism_email(self):
         return self.ism
 user1 = User("Diyorbek", "Ashiraliyev", 2017, "diyorbek@gmail.com")
-print(user1.get_info())
+print(user1.e_mail())
